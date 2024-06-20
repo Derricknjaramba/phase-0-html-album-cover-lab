@@ -1,45 +1,77 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <title>HTML Album Cover</title>
-    <link rel="stylesheet" href="css/style.css">
-  </head>
-  <body>
-    <div class="wrapper">
-      <div id="front" class="album">
-        <div id="title-box">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .wrapper{
+      border:2px solid black;
+      width:750px;
+      height:800px;
+    }
+    .album{
+      width:700px;
+      height:400px;
 
-          <!-- Level 4 'PHARRELL WILLIAMS' Header -->
+    }
+    .img{
+      width:700px;
+      height:400px;
+      object-fit:cover;
+    }
+    .tittlebox{
+      width:200px;
+      height:130px;
+      background-color: yellow;
+      color:black;
+      align-items:flex-start;
+     margin-left:50px;
+     padding:20px;
+     border:1px solid black;
+    }
+    .last{
+      width:700px;
+      height:350px;
+      margin:2px;
+      padding:20px;
+      background-color:yellow;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrapper">
+    <div class="album">
+    <img src="/home/derrick/desktop/phar.webp" alt="pharrell">
+    <div class="tittlebox">
+      <p>pharrell williams</p>
+      <h1><strong>HAPPY</strong></h1>
+      <p>FROM DESPICABLE ME 2</p>
 
-          <!-- Level 2 'HAPPY' Header -->
-
-          <!-- Level 4 '| FROM DESPICABLE ME...' Header -->
-
-        </div>
-      </div>
-
-      <div id="back" class="album">
-
-        <!-- Level 3 '| FROM DESPICABLE ME...' Header -->
-
-        <!-- Level 1 'HAPPY' Header -->
-
-        <!-- Level 3 'WRITTEN BY...' Header -->
-
-        <!-- pararaph text 'PUBLISHED BY...' -->
-
-        <!-- span text 'PHARRELLWILLIAMS.COM' -->
-
-        <!-- display the images hosted on [https://s3.amazonaws.com/learn-verified/columbia-logo.png] -->
-
-        <!-- span text 'COLUMBIARECORDS.COM' -->
-
-        <br>
-
-        <!-- display the images hosted on [https://s3.amazonaws.com/learn-verified/sony-logo.png] -->
-
-      </div>
     </div>
-  </body>
+
+
+</div>
+<div class="last">
+  <p style="text-align: center;">FROM DESPICABLE ME 2</p>
+  <h1 style="text-align:center;">HAPPY</h1>
+  <p style="text-align: center;">WRITTEN BY PHARRELL WILLIAMS</p>
+  <P>Published by Emi April music,inc .obo itself and more waterfrom nazareth/universal
+    pictures music(ASCAP) background vocals performed by Rhea Dummet,Trevo Herderson,
+    Ashley lee,Jasmine Murray and Terrence Roll|produced by pharell williams|recorded 
+    by Mike Larson for i am other entertainment at circle house studios,Miami|Assisted
+    by Matthew Larson|Digital editing and arrangement  by Andrew coleman and Mike Larson
+    for i am other entertainment|mixed by lesile Braithwaite at music box studios, Atlanta
+    ,GA</P>
+    <p>pharrellwilliams.com <span>columbiarecords.com</span></p>
+  
+  <img src="/home/derrick/desktop/phar.webp"alt="sony">
+  <span>SONY MUSIC</span>
+
+
+</div>
+
+  </div>
+  
+</body>
 </html>
